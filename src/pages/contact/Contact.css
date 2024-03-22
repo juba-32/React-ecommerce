@@ -1,0 +1,231 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/homeBG.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact h1 {
+  text-align: center;
+  padding: 50px;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.contact-container {
+  padding: 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 1.2rem;
+}
+
+
+
+
+.sochial-contact h4 {
+  font-weight: 600;
+  font-size: 29px;
+}
+
+.sochial-contact h5 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.icons {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(14, 15, 14);
+}
+
+.sochial-contact a {
+  font-size: 1rem;
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sochial-contact {
+  border: 1px solid rgb(152, 147, 147);
+  width: 300px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.sochial-contact:hover {
+  background: #b3b1b1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+input,
+textarea {
+  background: #fff;
+  width: 450px;
+  border: 2px solid var(--color-bg-variant);
+  outline: none;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  resize: none;
+  color: var(--color-white);
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+
+/* ======== media queries (medium devices) ======= */
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    height: 140vh;
+  }
+
+  .sochial-contact {
+    border: rgb(192, 192, 201) 1px solid;
+    width: 250px;
+    color: blue;
+  }
+
+  input,
+  textarea {
+    background: #fff;
+    width: 300px;
+    border: 2px solid var(--color-bg-variant);
+    outline: none;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    resize: none;
+    color: var(--color-white);
+  }
+
+
+
+}
+
+/* ======== media queries (small devices) ======= */
+
+@media screen and (max-width: 800px) {
+
+
+  .contact {
+    height: 140vh;
+  }
+
+  .sochial-contact {
+    border: rgb(192, 192, 201) 1px solid;
+    width: 200px;color: red;
+  }
+
+  input,
+  textarea {
+    background: #fff;
+    width: 250px;
+    border: 2px solid var(--color-bg-variant);
+    outline: none;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    resize: none;
+    color: var(--color-white);
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+  .contact {
+    height: 140vh;
+  }
+
+
+  .sochial-contact {
+    border: rgb(192, 192, 201) 1px solid;
+    width: 160px;
+    color: green;
+  }
+
+  .sochial-contact h5 {
+    font-size: 15px;
+  }
+
+  input,
+  textarea {
+    background: #fff;
+    width: 200px;
+    border: 2px solid var(--color-bg-variant);
+    outline: none;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    resize: none;
+    color: var(--color-white);
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+
+  .contact {
+    height: 140vh;
+  }
+
+  .contact-container {
+    gap: 20px;
+  }
+
+  .icons {
+    color: rgb(192, 192, 201);
+  }
+
+  .sochial-contact a {
+    color: rgb(192, 192, 201);
+  }
+
+  .sochial-contact {
+    border: rgb(192, 192, 201) 1px solid;
+    width: 160px;
+    color: rgb(192, 192, 201);
+  }
+
+  .sochial-contact h5 {
+    font-size: 15px;
+  }
+
+  input,
+  textarea {
+    background: #fff;
+    width: 180px;
+    border: 2px solid var(--color-bg-variant);
+    outline: none;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    resize: none;
+    color: var(--color-white);
+  }
+}

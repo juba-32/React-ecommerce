@@ -1,0 +1,34 @@
+.home-info {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/homeBG.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+
+}
+
+.description h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.description p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  max-width: 70ch;
+  color: #fff;
+  margin: auto;
+
+}
+
